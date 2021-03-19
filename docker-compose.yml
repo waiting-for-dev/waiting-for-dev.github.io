@@ -1,0 +1,25 @@
+version: '3.7'
+
+services:
+  app:
+    build:
+      context: .dockerdev
+      dockerfile: Dockerfile
+    image: waiting-for-dev-0.1
+    command: tail -f /dev/null
+    environment:
+      HISTFILE: "/home/waiting_for_dev/history/bash_history"
+    ports:
+      - "${SITE_PORT:-4000}:${SITE_PORT:-4000}"
+    volumes:
+      - .:/home/waiting_for_dev/app
+      - bundle:/home/waiting_for_dev/gems
+      - history:/home/waiting_for_dev/history
+    tty: true
+    stdin_open: true
+    tmpfs:
+      - /tmp
+
+volumes:
+  bundle:
+  history:
