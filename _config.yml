@@ -25,11 +25,11 @@ description: >- # this means to ignore newlines until "baseurl:"
   inhabited the Earth at some point. In that thing called society, I have taken
   the role of a software developer. If I can help you with anything or you'd
   like to chat, please, reach me.
-baseurl: "/blog" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: waiting-for-dev
 github_username:  waiting-for-dev
-permalink: /:year/:month/:day/:title
+permalink: /blog/:year/:month/:day/:title
 
 # Build settings
 theme: minima
