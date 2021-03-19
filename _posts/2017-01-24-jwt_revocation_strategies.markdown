@@ -5,7 +5,7 @@ date: 2017-01-24 06:20:17 +0000
 comments: true
 categories: [jwt, "A walk with JWT and security"]
 ---
-In [my last post](http://waiting-for-dev.github.io/blog/2017/01/23/stand_up_for_jwt_revocation/) I concluded why, in my view, JWT revocation makes a lot of sense. Now, it's time to analyze which revocation strategies can be used and which are they pros and cons.
+In [my last post]({% post_url 2017-01-23-stand_up_for_jwt_revocation %}) I concluded why, in my view, JWT revocation makes a lot of sense. Now, it's time to analyze which revocation strategies can be used and which are they pros and cons.
 
 ## Short lived tokens
 

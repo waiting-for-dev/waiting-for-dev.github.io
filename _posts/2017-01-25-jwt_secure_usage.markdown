@@ -5,7 +5,7 @@ date: 2017-01-25 08:43:41 +0000
 comments: true
 categories: [jwt, "A walk with JWT and security"] 
 ---
-In this post, after having discussed the [why](http://waiting-for-dev.github.io/blog/2017/01/23/stand_up_for_jwt_revocation/) and [how](http://waiting-for-dev.github.io/blog/2017/01/24/jwt_revocation_strategies/) on revoking JWT tokens, we'll talk about some general advices that should be kept in mind while using JWT for user authentication.
+In this post, after having discussed the [why]({% post_url 2017-01-23-stand_up_for_jwt_revocation %}) and [how]({% post_url 2017-01-24-jwt_revocation_strategies %}) on revoking JWT tokens, we'll talk about some general advices that should be kept in mind while using JWT for user authentication.
 
 The most important one is what we have already said: add a revocation layer on top of JWT, even if it implies losing its stateless nature. The opposite is, most of the times, not acceptable. But there are more aspects to consider.
 
