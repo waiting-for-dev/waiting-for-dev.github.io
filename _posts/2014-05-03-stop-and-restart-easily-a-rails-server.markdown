@@ -3,6 +3,7 @@ layout: post
 title: "Stop and restart easily a rails server"
 date: 2014-05-03 11:09:24 +0200
 comments: true
+published: false
 categories: [ruby, rails]
 ---
 I like to start rails server as a daemon with `rails server -d`, because I don't want a terminal window or a tmux pane just hanging around with the server foreground process.

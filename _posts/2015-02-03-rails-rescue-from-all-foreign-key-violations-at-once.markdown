@@ -3,6 +3,7 @@ layout: post
 title: "Rails: Rescue from all foreign key violations at once"
 date: 2015-02-03 13:25:55 +0100
 comments: true
+published: false
 categories: [ruby, rails]
 ---
 **UPDATE:** With the time I see that it is clearly an anti-pattern: it may seem a good idea but it treats an exception that can arise for different reasons as it was always for one of them. So, better avoid this and control each case in your application logic. 
