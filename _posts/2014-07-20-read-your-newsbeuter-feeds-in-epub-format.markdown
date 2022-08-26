@@ -4,6 +4,7 @@ title: "Read your newsbeuter feeds in epub format"
 date: 2014-07-20 17:10:37 +0200
 comments: true
 categories: unix
+published: false
 ---
 I love [newsbeuter](http://www.newsbeuter.org/) CLI RSS reader. When I discovered it I saw that it was what I had been looking for quite a long time. Very quick and easy to navigate through the feeds, when I find one that seems interesting enough, I press the `o` key and I can read it in *full-colors mode* in my GUI web browser.
 

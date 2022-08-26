@@ -4,6 +4,7 @@ title: "Distributable and organized dotfiles with homeshick and mr"
 date: 2014-05-04 09:45:19 +0200
 comments: true
 categories: [unix, git]
+published: false
 ---
 [dotfiles](http://dotfiles.github.io/) are the personality of your computer. Without them, it would be like any other computer in the world. That's why it is a good idea to keep them in a distributable way, so that you can import them easily when you migrate to another system.
 

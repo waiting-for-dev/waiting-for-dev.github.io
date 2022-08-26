@@ -4,6 +4,7 @@ title: "Ruby gems could harm your memory"
 date: 2016-09-07 14:10:25 +0000
 comments: true
 categories: [ruby, rails]
+published: false
 ---
 It is easy to get amazed with the wonderful world that the open source community has created around ruby gems. It seems to exist a library for everything you can imagine. Some people can even get the illusion that software development is as easy as putting together the pieces of a puzzle: just take rails, put this gem here and that one there and you are done.
 

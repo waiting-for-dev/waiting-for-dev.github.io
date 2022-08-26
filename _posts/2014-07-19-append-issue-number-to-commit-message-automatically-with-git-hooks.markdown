@@ -4,6 +4,7 @@ title: "Append issue number to commit message automatically with git hooks"
 date: 2014-07-19 13:27:59 +0200
 comments: true
 categories: git
+published: false
 ---
 A great feature in the integration between issue tracking systems and repository hosting services is the possibility to reference an issue from a commit message. You add the issue number and everything gets nicely linked, allowing the subsequent exploration of all commits that led to an issue resolution.
 
