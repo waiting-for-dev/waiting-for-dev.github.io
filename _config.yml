@@ -36,8 +36,8 @@ theme: minima
 plugins:
   - jekyll-feed
   - jekyll-gist
-disqus:
-  shortname: waiting-for-dev
+# disqus:
+#   shortname: waiting-for-dev
 
 # Exclude from processing.
 # The following items will not be processed, by default.
