@@ -21,11 +21,11 @@ When I looked for current Ruby libraries helping with JWT authentication I wante
 
 I looked at what it had been done so far, and here it is what I found.
 
-* [Knock](http://www.wordreference.com/es/en/translation.asp?spen=auditoria). Surely, it is the most serious attempt of implementing JWT authentication for Rails applications. But it is Rails specific, [does not integrate with devise](https://github.com/nsarno/knock/issues/70) and it has [ruled out adding a revocation layer](https://github.com/nsarno/knock/issues/15).
+* [Knock](https://github.com/nsarno/knock). Surely, it is the most serious attempt of implementing JWT authentication for Rails applications. But it is Rails specific, [does not integrate with devise](https://github.com/nsarno/knock/issues/70) and it has [ruled out adding a revocation layer](https://github.com/nsarno/knock/issues/15).
 
-* [rack-jwt](https://github.com/eigenbart/rack-jwt) It is nice that it is for any Rack application, but it is also true that it needs some handwork to integrate with tested authentication libraries like Warden. Besides, it doesn't help with revocation.
+* [rack-jwt](https://github.com/eparreno/rack-jwt) It is nice that it is for any Rack application, but it is also true that it needs some handwork to integrate with tested authentication libraries like Warden. Besides, it doesn't help with revocation.
 
-* [jwt_authentication](https://github.com/Rezonans/jwt_authentication) It is only for Rails with devise. I think is quite complex and tries to mix [simple_token_authentication](https://github.com/gonzalo-bulnes/simple_token_authentication), which adds even more complexity and monkey patching. It doesn't support revocation.
+* [jwt_authentication](https://github.com/brocoders/jwt_authentication) It is only for Rails with devise. I think is quite complex and tries to mix [simple_token_authentication](https://github.com/gonzalo-bulnes/simple_token_authentication), which adds even more complexity and monkey patching. It doesn't support revocation.
 
 ## What I have done
 
