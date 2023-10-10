@@ -21,10 +21,10 @@
 title: Waiting for dev...
 email: marc@lamarciana-com
 description: >- # this means to ignore newlines until "baseurl:"
-  I happen to be one of the roughly 106.000.000.000 human beings that have
-  inhabited the Earth at some point. In that thing called society, I have taken
-  the role of a software developer. If I can help you with anything or you'd
-  like to chat, please, reach me.
+  I happen to be one of the roughly 106,000,000,000 human beings who have
+  inhabited the Earth at some point. In this thing called society, I have taken
+  on the role of a software developer. If I can assist you with anything or if
+  you'd like to chat, please feel free to reach out to me.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: waiting_for_dev
