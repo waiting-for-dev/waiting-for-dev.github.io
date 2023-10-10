@@ -47,7 +47,7 @@ Having warden the 'scopes' concept, they can be leveraged to flag each token in 
 
 ### devise-jwt
 
-[devise-jwt](https://github.com/waiting-for-dev/devise-jwt)] is just a thin layer on top of warden-jwt_auth. It configures it to be used out of the box for devise and rails.
+[devise-jwt](https://github.com/waiting-for-dev/devise-jwt) is just a thin layer on top of warden-jwt_auth. It configures it to be used out of the box for devise and rails.
 
 Basically, it does:
 

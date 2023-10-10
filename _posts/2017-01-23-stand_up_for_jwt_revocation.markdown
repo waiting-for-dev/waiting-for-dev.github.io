@@ -27,6 +27,7 @@ Now, about the alleged overhead that JWT with revocation would entail. As we sai
 Using a standard like JWT also has some abstract benefits that are difficult to measure. For example, usually, with current libraries, you get integrated expiration management through the "exp" claim. However, as far as I know, there is no standard for opaque tokens, which makes libraries prone to reinvent the wheel every time. In general, using JWT should be more portable.
 
 Of course, I'm not saying that JWT with revocation is always good and opaque tokens are always bad. There have been detected JWT-specific attacks that good libraries should have fixed, and irresponsible use of JWT can have some dangers that we'll examine in further posts. In the end, developers must be aware of what they are using, and a secure opaque token implementation is also very valid. But adding the revocation layer on top of JWT shouldn't be disregarded as easily. In the next post, we'll take a look at some revocation strategies that can be implemented.
+
 ---
 
 Background on the debate about JWT security and revocation:
