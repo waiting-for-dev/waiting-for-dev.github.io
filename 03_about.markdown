@@ -13,5 +13,5 @@ paradigms.
 
 * [Github](https://github.com/waiting-for-dev)
 * [Linkedin](http://www.linkedin.com/pub/marc-busqu%C3%A9-p%C3%A9rez/37/b39/2b9)
-* [Twitter](https://twitter.com/waiting_for_dev)
+* [ruby.social](https://ruby.social/@waiting_for_dev)
 * [Youtube](https://www.youtube.com/channel/UCV4mmvTUldd6Kh7baQCbhqQ)
