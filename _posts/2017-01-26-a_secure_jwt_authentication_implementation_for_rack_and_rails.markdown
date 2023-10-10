@@ -9,10 +9,10 @@ After having discussed in the three previous posts ([I]({% post_url 2017-01-23-s
 
 ## What did I expect from a JWT authentication Ruby library?
 
-When I looked for current Ruby libraries helping with JWT authentication I wanted them to have a string of conditions:
+When I looked for current Ruby libraries helping with JWT authentication, I wanted them to have a string of conditions:
 
-* I wanted it to rely on Warden, a heavily tested authentication library that works for any kind of Rack application. This decision was also based on the fact that most part of applications in my current company use it.
-* It should be easily pluggable into Rails with Devise (which uses Warden). That way, in Rails applications, I could use Devise database authentication for the sign in action and JWT for the rest.
+* I wanted it to rely on Warden, a heavily tested authentication library that works for any kind of Rack application. This decision was also based on the fact that most applications in my current company use it.
+* It should be easily pluggable into Rails with Devise (which uses Warden). That way, in Rails applications, I could use Devise database authentication for the sign-in action and JWT for the rest.
 * Relying on Warden and not being a full authentication system, it should be very simple to audit.
 * Zero monkey patching. A lot of libraries meant to work with Devise have a lot of monkey patching. I don't like that.
 * It should be ORM agnostic when used outside of Rails.
