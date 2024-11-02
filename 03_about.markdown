@@ -11,5 +11,6 @@ I've also been a Rubyist for ages, developing a strong affinity for functional p
 
 * [Github](https://github.com/waiting-for-dev)
 * [Linkedin](http://www.linkedin.com/pub/marc-busqu%C3%A9-p%C3%A9rez/37/b39/2b9)
+* [Bluesky](https://bsky.app/profile/waiting-for-dev.bsky.social)
 * [ruby.social](https://ruby.social/@waiting_for_dev)
 * [Youtube](https://www.youtube.com/channel/UCV4mmvTUldd6Kh7baQCbhqQ)
