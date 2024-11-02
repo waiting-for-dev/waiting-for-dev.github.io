@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Open Source Status: November 2024 - dry-operation v1.0 is here!"
-date: 2024-12-02 00:00:00 +0000
+date: 2024-12-01 00:00:00 +0000
 comments: true
 categories: ["Open Source Status", "dry-rb", "dry-operation", "hanami"] 
 published: true
